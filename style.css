@@ -37,6 +37,9 @@ nav ul li a{
   padding-left: 2em;
   color: #ddd;
 }
+a:hover{
+  color: #00ddff;
+}
 
 
 .hero{
@@ -275,11 +278,20 @@ footer .logo{
 .f-section div{
   margin-bottom: 1em;
 }
+.f-section img{
+  margin-right: 1.5em;
+}
+.sm-icon:hover{
+  filter: opacity(.4);
+}
 
 .f-section a{
  color: #eee;
  text-decoration: none;
  margin-bottom: 1em;
+}
+.f-section a:hover{
+  color: #00ffdd;
 }
 
 .f-section:first-child{
@@ -298,10 +310,6 @@ footer .logo{
 }
 .location p{
   width: 95%;
-}
-
-.sm-icon{
-  margin-left: 1.5em;
 }
 
 
@@ -384,9 +392,7 @@ footer .logo{
     align-items: flex-start;
     margin: 1em;
   }
-  .f-section img{
-    margin-right: 1.5em;
-  }
+
   .f-section:first-child, .f-section:last-child{
     width: 100%;
     margin: 0 auto;
